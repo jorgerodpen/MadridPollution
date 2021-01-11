@@ -54,6 +54,6 @@ The improvement in residuals is shown in the two figures bellow:
 ## Conclusions 
 The average % of decrease in NO2 levels is shown in the figure bellow. 
 
-<img src="https://github.com/jorgerodpen/MadridPollution/blob/main/lockdown.png" width="200">
+<img src="https://github.com/jorgerodpen/MadridPollution/blob/main/lockdown.png" width="400">
 
 Brownish stations correspond to southern Madrid, while greenish stations correspond to northern stations. Showing that northern stations had a higher impact. The highest impact was observed at station 55, located at Madrid's airport. 
