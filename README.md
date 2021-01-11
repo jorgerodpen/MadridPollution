@@ -37,6 +37,6 @@ The temporal evolution of NO2 levels looked like this:
 
 <img src="https://github.com/jorgerodpen/MadridPollution/blob/main/temporalevolution.png" width="400">
 
-And the correlation with NO2 for each station was the following one:
+And the correlation coefficients were the following (the second heatmap shows correlation per station with NO2 levels):
 
-<img src="https://github.com/jorgerodpen/MadridPollution/blob/main/correlation.png" width="200"><img src="https://github.com/jorgerodpen/MadridPollution/blob/main/correlation2.png" width="200">
+<img src="https://github.com/jorgerodpen/MadridPollution/blob/main/correlation2.png" width="250"><img src="https://github.com/jorgerodpen/MadridPollution/blob/main/correlation.png" width="200">
