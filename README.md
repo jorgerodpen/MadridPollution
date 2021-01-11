@@ -40,3 +40,10 @@ The temporal evolution of NO2 levels looked like this:
 And the correlation coefficients were the following (the second heatmap shows correlation per station with NO2 levels):
 
 <img src="https://github.com/jorgerodpen/MadridPollution/blob/main/correlation2.png" width="250"><img src="https://github.com/jorgerodpen/MadridPollution/blob/main/correlation.png" width="200">
+
+## Model building
+The log of the NO2 levels was used to model the linear regression. The log of wind fitted better the values than wind. 
+- The first model used only Wind, Pressure, Temperature, Humidity and Lockdown as variables. RMSE ~ 9.57 µg/m3
+- After modelling each month and day of the week separately, used a Fourier transformation to obtain the periodicity of the peaks in hourly NO2 levels. Used the top 6 frequencies. 
+- The final model had a RMSE of 5.93 µg/m3.
+<img src="https://github.com/jorgerodpen/MadridPollution/blob/main/residuals1.png" width="150"><img src="https://github.com/jorgerodpen/MadridPollution/blob/main/residuals2" width="150">
