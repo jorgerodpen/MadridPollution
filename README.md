@@ -7,6 +7,7 @@
 - Detected stations with a higher impact because of lockdown. Stations in the north of Madrid were more affected than station in the south. The highest impact was observed in the station located at Madrid's airport, and the lowest impact in the station located at Villa de Vallecas. 
 - The results of this project could be used to improve Madrid's air quality by looking at the effect of mobility restrictions around the area of each station. 
 
-## Code and resources
-**Python Version**: 
-**Packages used**: pandas, numpy, scipy, statsmodels, datetime, sklearn, matplotlib, seaborn, folium
+## Packages
+**Python Version**: 3.8.3
+**Packages used**: pandas, numpy, scipy, statsmodels, scikit-learn, matplotlib, seaborn, folium
+**Requirements**: <code>pip install -r requirements.txt</code>
