@@ -34,4 +34,4 @@ The final data contained 96.2% of the original data.
 
 ## EDA
 The temporal evolution of NO2 levels looked like this:
-![plot](./temporalevolution.png)
+<img src="https://github.com/jorgerodpen/MadridPollution/blob/main/temporalevolution.png" width="48">
