@@ -47,4 +47,9 @@ The log of the NO2 levels was used to model the linear regression. The log of wi
 - After modelling each month and day of the week separately, used a Fourier transformation to obtain the periodicity of the peaks in hourly NO2 levels. Used the top 6 frequencies. 
 - The final model had a RMSE of 5.93 µg/m3.
 
-<img src="https://github.com/jorgerodpen/MadridPollution/blob/main/residuals1.png" width="150"><img src="https://github.com/jorgerodpen/MadridPollution/blob/main/residuals2.png" width="150">
+The improvement in residuals is shown in the two figures bellow: 
+
+<img src="https://github.com/jorgerodpen/MadridPollution/blob/main/residuals1.png" width="200"><img src="https://github.com/jorgerodpen/MadridPollution/blob/main/residuals2.png" width="200">
+
+## Conclusions 
+The effect for each station is shown bellow. Brownish stations correspond to southern Madrid, while greenish stations correspond to northern stations. Showing that northing stations had a higher impact. 
