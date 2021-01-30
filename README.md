@@ -1,10 +1,10 @@
 #  Understanding Madrid’s pollution levels during the COVID-19 lockdown in Spain.
 - Studied NO2 levels across all air quality control stations in Madrid city to see the effect of lockdown in each station. 
-- The average impact detected was a reduction in NO2 levels of 46%. 
+- The average impact detected was a reduction in NO2 levels of the 46%. 
 - Used weather and temporal data to study the impact of each variable in NO2 levels.
 - Used spatialisation of stations to observe differences and patterns with PCA.
-- Built a linear model for each station, month and day of the week that predicted NO2 levels (RMSE ~ 5.93 µg/m3)
-- Detected stations with a higher impact because of lockdown. Stations in the north of Madrid were more affected than station in the south. The highest impact was observed in the station located at Madrid's airport (>60%), and the lowest impact in the station located at Villa de Vallecas (<20%). 
+- Built a linear model for each station, month and day of the week that predicted NO2 levels (RMSE ~ 6.7 µg/m3)
+- Detected stations with a higher impact because of lockdown. Stations in the north of Madrid were more affected than station in the south. The highest impact was observed in the station located at Madrid's airport (~70%), and the lowest impact in the station located at Villa de Vallecas (~20%). 
 - The results of this project could be used to improve Madrid's air quality by looking at the effect of mobility restrictions around the area of each station. 
 
 ## Packages
@@ -46,16 +46,19 @@ A map of the locations of the stations was saved as an HTML file. The colours of
 ## Model building
 The log of the NO2 levels was used to model the linear regression. The log of wind fitted better the values than wind. 
 - The first model used only Wind, Pressure, Temperature, Humidity and Lockdown as variables. RMSE ~ 9.57 µg/m3
-- After modelling each month and day of the week separately, used a Fourier transformation to obtain the periodicity of the peaks in hourly NO2 levels. Used the top 6 frequencies. 
-- The final model had a RMSE of 5.93 µg/m3.
+- After modelling each month and day of the week separately, used a Fourier transformation to obtain the periodicity of the peaks in hourly NO2 levels. Used the top 6 frequencies (see the figure bellow)
+<img src="https://github.com/jorgerodpen/MadridPollution/blob/main/fourier.png" width="300">
+- The final model had a RMSE of 6.69 µg/m3.
 
-The improvement in residuals is shown in the two figures bellow: 
+The improvement in residuals from the first model to the last is shown in the two figures bellow: 
 
 <img src="https://github.com/jorgerodpen/MadridPollution/blob/main/residuals1.png" width="300"><img src="https://github.com/jorgerodpen/MadridPollution/blob/main/residuals2.png" width="300">
 
 ## Conclusions 
-The average % of decrease in NO2 levels is shown in the figure bellow. 
+The average % of decrease in NO2 levels for all of the stations was estimated to be of the 52% as shown bellow: 
+<img src="https://github.com/jorgerodpen/MadridPollution/blob/main/alllockdown.png" width="400">
 
+And per station:
 <img src="https://github.com/jorgerodpen/MadridPollution/blob/main/lockdown.png" width="400">
 
-Brownish stations correspond to southern Madrid, while greenish stations correspond to northern stations. Showing that northern stations had a higher impact. The highest impact was observed at station 55, located at Madrid's airport. 
+Brownish stations correspond to southern Madrid, while greenish stations correspond to northern stations. In general, northern stations had a higher impact. The highest impact was observed at station 55, located at Madrid's airport. 
