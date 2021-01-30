@@ -56,9 +56,11 @@ The improvement in residuals from the first model to the last is shown in the tw
 
 ## Conclusions 
 The average % of decrease in NO2 levels for all of the stations was estimated to be of the 52% as shown bellow: 
+
 <img src="https://github.com/jorgerodpen/MadridPollution/blob/main/alllockdown.png" width="400">
 
 And per station:
+
 <img src="https://github.com/jorgerodpen/MadridPollution/blob/main/lockdown.png" width="400">
 
 Brownish stations correspond to southern Madrid, while greenish stations correspond to northern stations. In general, northern stations had a higher impact. The highest impact was observed at station 55, located at Madrid's airport. 
