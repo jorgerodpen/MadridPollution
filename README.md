@@ -48,6 +48,7 @@ The log of the NO2 levels was used to model the linear regression. The log of wi
 - The first model used only Wind, Pressure, Temperature, Humidity and Lockdown as variables. RMSE ~ 9.57 µg/m3
 - After modelling each month and day of the week separately, used a Fourier transformation to obtain the periodicity of the peaks in hourly NO2 levels. Used the top 6 frequencies (see the figure bellow)
 <img src="https://github.com/jorgerodpen/MadridPollution/blob/main/fourier.png" width="300">
+
 - The final model had a RMSE of 6.69 µg/m3.
 
 The improvement in residuals from the first model to the last is shown in the two figures bellow: 
