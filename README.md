@@ -1,6 +1,6 @@
 #  Understanding Madrid’s pollution levels during the COVID-19 lockdown in Spain.
 - Studied NO2 levels across all air quality control stations in Madrid city to see the effect of lockdown in each station. 
-- The average impact detected was a reduction in NO2 levels of the 46%. 
+- The average impact detected was a reduction in NO2 levels of the 53%. 
 - Used weather and temporal data to study the impact of each variable in NO2 levels.
 - Used spatialisation of stations to observe differences and patterns with PCA.
 - Built a linear model for each station, month and day of the week that predicted NO2 levels (RMSE ~ 6.7 µg/m3)
@@ -55,7 +55,7 @@ The improvement in residuals from the first model to the last is shown in the tw
 <img src="https://github.com/jorgerodpen/MadridPollution/blob/main/residuals1.png" width="300"><img src="https://github.com/jorgerodpen/MadridPollution/blob/main/residuals2.png" width="300">
 
 ## Conclusions 
-The average % of decrease in NO2 levels for all of the stations was estimated to be of the 52% as shown bellow: 
+The average % of decrease in NO2 levels for all of the stations was estimated to be of the 53% as shown bellow: 
 
 <img src="https://github.com/jorgerodpen/MadridPollution/blob/main/alllockdown.png" width="400">
 
