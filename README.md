@@ -1,4 +1,4 @@
-#  Understanding Madrid’s pollution levels during the COVID-19 lockdown in Spain.
+#  Exploration of Madrid’s pollution levels during the COVID-19 lockdown in Spain.
 - Studied NO2 levels across all air quality control stations in Madrid city to see the effect of lockdown in each station. 
 - The average impact detected was a reduction in NO2 levels of the 53%. 
 - Used weather and temporal data to study the impact of each variable in NO2 levels.
