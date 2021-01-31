@@ -65,3 +65,6 @@ And per station:
 <img src="https://github.com/jorgerodpen/MadridPollution/blob/main/lockdown.png" width="400">
 
 Brownish stations correspond to southern Madrid, while greenish stations correspond to northern stations. In general, northern stations had a higher impact. The highest impact was observed at station 55, located at Madrid's airport. 
+
+## Pre-print
+The pre-print containing all the information of the project is also in this github as <code>MadridPollutionCovid19.pdf</code>. 
